@@ -16,7 +16,7 @@ class ACTIONGAME_API ASItemChest : public AActor, public IGameplayInterface
 public:
 	UPROPERTY(EditAnywhere)
 	float TargetPitch;
-	void Interact_Implementa5tion(APawn* InstigatorPawn);
+	void Interact_Implementation(APawn* InstigatorPawn);
 	
 public:	
 	// Sets default values for this actor's properties
